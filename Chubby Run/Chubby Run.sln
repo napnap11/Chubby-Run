@@ -1,0 +1,29 @@
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2008
+
+Project("{53C36A20-763D-0908-DEB6-B5896685AA2A}") = "Chubby Run", "Assembly-CSharp.csproj", "{53DF29D8-12C4-4E32-9B97-7349E6880BE3}"
+EndProject
+Project("{53C36A20-763D-0908-DEB6-B5896685AA2A}") = "Chubby Run", "Assembly-CSharp-Editor.csproj", "{EA411E24-EB53-9C64-7530-10C5934BC7EF}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{53DF29D8-12C4-4E32-9B97-7349E6880BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{53DF29D8-12C4-4E32-9B97-7349E6880BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{53DF29D8-12C4-4E32-9B97-7349E6880BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{53DF29D8-12C4-4E32-9B97-7349E6880BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EA411E24-EB53-9C64-7530-10C5934BC7EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EA411E24-EB53-9C64-7530-10C5934BC7EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EA411E24-EB53-9C64-7530-10C5934BC7EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EA411E24-EB53-9C64-7530-10C5934BC7EF}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(MonoDevelopProperties) = preSolution
+		StartupItem = Assembly-CSharp.csproj
+	EndGlobalSection
+EndGlobal

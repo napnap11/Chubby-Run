@@ -1,0 +1,1276 @@
+fileFormatVersion: 2
+guid: 82e944027df9b174a84ae88715300462
+timeCreated: 1491143425
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_0
+    21300002: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_1
+    21300004: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_2
+    21300006: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_3
+    21300008: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_4
+    21300010: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_5
+    21300012: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_6
+    21300014: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_7
+    21300016: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_8
+    21300018: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_9
+    21300020: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_10
+    21300022: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_11
+    21300024: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_12
+    21300026: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_13
+    21300028: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_14
+    21300030: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_15
+    21300032: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_16
+    21300034: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_17
+    21300036: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_18
+    21300038: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_19
+    21300040: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_20
+    21300042: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_21
+    21300044: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_22
+    21300046: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_23
+    21300048: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_24
+    21300050: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_25
+    21300052: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_26
+    21300054: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_27
+    21300056: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_28
+    21300058: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_29
+    21300060: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_30
+    21300062: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_31
+    21300064: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_32
+    21300066: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_33
+    21300068: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_34
+    21300070: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_35
+    21300072: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_36
+    21300074: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_37
+    21300076: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_38
+    21300078: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_39
+    21300080: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_40
+    21300082: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_41
+    21300084: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_42
+    21300086: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_43
+    21300088: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_44
+    21300090: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_45
+    21300092: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_46
+    21300094: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_47
+    21300096: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_48
+    21300098: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_49
+    21300100: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_50
+    21300102: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_51
+    21300104: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_52
+    21300106: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_53
+    21300108: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_54
+    21300110: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_55
+    21300112: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_56
+    21300114: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_57
+    21300116: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_58
+    21300118: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_59
+    21300120: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_60
+    21300122: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_61
+    21300124: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_62
+    21300126: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_63
+    21300128: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_64
+    21300130: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_65
+    21300132: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_66
+    21300134: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_67
+    21300136: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_68
+    21300138: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_69
+    21300140: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_70
+    21300142: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_71
+    21300144: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_72
+    21300146: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_73
+    21300148: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_74
+    21300150: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_75
+    21300152: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_76
+    21300154: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_77
+    21300156: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_78
+    21300158: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_79
+    21300160: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_80
+    21300162: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_81
+    21300164: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_82
+    21300166: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_83
+  serializedVersion: 4
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: -1
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaUsage: 1
+  alphaIsTransparency: 1
+  spriteTessellationDetail: -1
+  textureType: 8
+  textureShape: 1
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  platformSettings:
+  - buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: WebGL
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_0
+      rect:
+        serializedVersion: 2
+        x: 24
+        y: 597
+        width: 17
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_1
+      rect:
+        serializedVersion: 2
+        x: 88
+        y: 597
+        width: 17
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_2
+      rect:
+        serializedVersion: 2
+        x: 153
+        y: 597
+        width: 15
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_3
+      rect:
+        serializedVersion: 2
+        x: 19
+        y: 533
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_4
+      rect:
+        serializedVersion: 2
+        x: 86
+        y: 533
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_5
+      rect:
+        serializedVersion: 2
+        x: 152
+        y: 533
+        width: 24
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_6
+      rect:
+        serializedVersion: 2
+        x: 211
+        y: 533
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_7
+      rect:
+        serializedVersion: 2
+        x: 272
+        y: 533
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_8
+      rect:
+        serializedVersion: 2
+        x: 337
+        y: 533
+        width: 24
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_9
+      rect:
+        serializedVersion: 2
+        x: 403
+        y: 533
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_10
+      rect:
+        serializedVersion: 2
+        x: 470
+        y: 533
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_11
+      rect:
+        serializedVersion: 2
+        x: 536
+        y: 533
+        width: 24
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_12
+      rect:
+        serializedVersion: 2
+        x: 595
+        y: 533
+        width: 27
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_13
+      rect:
+        serializedVersion: 2
+        x: 656
+        y: 533
+        width: 27
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_14
+      rect:
+        serializedVersion: 2
+        x: 721
+        y: 533
+        width: 24
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_15
+      rect:
+        serializedVersion: 2
+        x: 793
+        y: 534
+        width: 15
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_16
+      rect:
+        serializedVersion: 2
+        x: 857
+        y: 535
+        width: 16
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_17
+      rect:
+        serializedVersion: 2
+        x: 920
+        y: 535
+        width: 20
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_18
+      rect:
+        serializedVersion: 2
+        x: 985
+        y: 533
+        width: 15
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_19
+      rect:
+        serializedVersion: 2
+        x: 1047
+        y: 533
+        width: 17
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_20
+      rect:
+        serializedVersion: 2
+        x: 1107
+        y: 533
+        width: 25
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_21
+      rect:
+        serializedVersion: 2
+        x: 14
+        y: 469
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_22
+      rect:
+        serializedVersion: 2
+        x: 78
+        y: 469
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_23
+      rect:
+        serializedVersion: 2
+        x: 149
+        y: 469
+        width: 23
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_24
+      rect:
+        serializedVersion: 2
+        x: 12
+        y: 405
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_25
+      rect:
+        serializedVersion: 2
+        x: 77
+        y: 405
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_26
+      rect:
+        serializedVersion: 2
+        x: 142
+        y: 405
+        width: 35
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_27
+      rect:
+        serializedVersion: 2
+        x: 204
+        y: 405
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_28
+      rect:
+        serializedVersion: 2
+        x: 270
+        y: 405
+        width: 38
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_29
+      rect:
+        serializedVersion: 2
+        x: 336
+        y: 405
+        width: 35
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_30
+      rect:
+        serializedVersion: 2
+        x: 396
+        y: 405
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_31
+      rect:
+        serializedVersion: 2
+        x: 459
+        y: 405
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_32
+      rect:
+        serializedVersion: 2
+        x: 526
+        y: 405
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_33
+      rect:
+        serializedVersion: 2
+        x: 588
+        y: 405
+        width: 41
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_34
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 405
+        width: 40
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_35
+      rect:
+        serializedVersion: 2
+        x: 718
+        y: 405
+        width: 37
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_36
+      rect:
+        serializedVersion: 2
+        x: 788
+        y: 406
+        width: 24
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_37
+      rect:
+        serializedVersion: 2
+        x: 854
+        y: 406
+        width: 22
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_38
+      rect:
+        serializedVersion: 2
+        x: 916
+        y: 407
+        width: 24
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_39
+      rect:
+        serializedVersion: 2
+        x: 980
+        y: 405
+        width: 24
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_40
+      rect:
+        serializedVersion: 2
+        x: 1042
+        y: 405
+        width: 26
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_41
+      rect:
+        serializedVersion: 2
+        x: 1105
+        y: 405
+        width: 28
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_42
+      rect:
+        serializedVersion: 2
+        x: 8
+        y: 341
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_43
+      rect:
+        serializedVersion: 2
+        x: 72
+        y: 341
+        width: 49
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_44
+      rect:
+        serializedVersion: 2
+        x: 141
+        y: 341
+        width: 35
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_45
+      rect:
+        serializedVersion: 2
+        x: 9
+        y: 277
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_46
+      rect:
+        serializedVersion: 2
+        x: 74
+        y: 277
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_47
+      rect:
+        serializedVersion: 2
+        x: 138
+        y: 277
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_48
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 277
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_49
+      rect:
+        serializedVersion: 2
+        x: 266
+        y: 277
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_50
+      rect:
+        serializedVersion: 2
+        x: 331
+        y: 277
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_51
+      rect:
+        serializedVersion: 2
+        x: 393
+        y: 277
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_52
+      rect:
+        serializedVersion: 2
+        x: 458
+        y: 277
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_53
+      rect:
+        serializedVersion: 2
+        x: 522
+        y: 277
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_54
+      rect:
+        serializedVersion: 2
+        x: 585
+        y: 277
+        width: 47
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_55
+      rect:
+        serializedVersion: 2
+        x: 650
+        y: 277
+        width: 45
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_56
+      rect:
+        serializedVersion: 2
+        x: 715
+        y: 277
+        width: 44
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_57
+      rect:
+        serializedVersion: 2
+        x: 785
+        y: 278
+        width: 32
+        height: 59
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_58
+      rect:
+        serializedVersion: 2
+        x: 851
+        y: 277
+        width: 29
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_59
+      rect:
+        serializedVersion: 2
+        x: 914
+        y: 279
+        width: 31
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_60
+      rect:
+        serializedVersion: 2
+        x: 979
+        y: 277
+        width: 30
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_61
+      rect:
+        serializedVersion: 2
+        x: 1041
+        y: 277
+        width: 31
+        height: 61
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_62
+      rect:
+        serializedVersion: 2
+        x: 1102
+        y: 277
+        width: 36
+        height: 62
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_63
+      rect:
+        serializedVersion: 2
+        x: 11
+        y: 185
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_64
+      rect:
+        serializedVersion: 2
+        x: 103
+        y: 185
+        width: 71
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_65
+      rect:
+        serializedVersion: 2
+        x: 200
+        y: 185
+        width: 57
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_66
+      rect:
+        serializedVersion: 2
+        x: 7
+        y: 93
+        width: 79
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_67
+      rect:
+        serializedVersion: 2
+        x: 104
+        y: 93
+        width: 71
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_68
+      rect:
+        serializedVersion: 2
+        x: 201
+        y: 93
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_69
+      rect:
+        serializedVersion: 2
+        x: 283
+        y: 93
+        width: 79
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_70
+      rect:
+        serializedVersion: 2
+        x: 378
+        y: 93
+        width: 71
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_71
+      rect:
+        serializedVersion: 2
+        x: 472
+        y: 93
+        width: 64
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_72
+      rect:
+        serializedVersion: 2
+        x: 562
+        y: 93
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_73
+      rect:
+        serializedVersion: 2
+        x: 654
+        y: 93
+        width: 71
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_74
+      rect:
+        serializedVersion: 2
+        x: 751
+        y: 93
+        width: 62
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_75
+      rect:
+        serializedVersion: 2
+        x: 838
+        y: 93
+        width: 73
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_76
+      rect:
+        serializedVersion: 2
+        x: 932
+        y: 93
+        width: 71
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_77
+      rect:
+        serializedVersion: 2
+        x: 1028
+        y: 93
+        width: 62
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_78
+      rect:
+        serializedVersion: 2
+        x: 21
+        y: 3
+        width: 53
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_79
+      rect:
+        serializedVersion: 2
+        x: 113
+        y: 3
+        width: 52
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_80
+      rect:
+        serializedVersion: 2
+        x: 202
+        y: 2
+        width: 56
+        height: 86
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_81
+      rect:
+        serializedVersion: 2
+        x: 297
+        y: 1
+        width: 53
+        height: 83
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_82
+      rect:
+        serializedVersion: 2
+        x: 385
+        y: 1
+        width: 56
+        height: 85
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: food_chase__man_sprite_sheet_by_sourindipity-d5okbpr_83
+      rect:
+        serializedVersion: 2
+        x: 473
+        y: 1
+        width: 61
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    outline: []
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
