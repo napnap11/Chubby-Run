@@ -11,6 +11,8 @@ public class ChubbyBoyController : NetworkBehaviour {
 	public GameObject Fireball;
 	public GameObject Trap;
 	private Vector3 defualtsize;
+	public Sprite normal;
+	public Sprite dead;
 	private Color defualtcolor;
 	[SyncVar]
 	private int Bigging;
@@ -24,24 +26,40 @@ public class ChubbyBoyController : NetworkBehaviour {
 	private int multi;
 	[SyncVar]
 	private Color color;
+	[SyncVar]
+	public int isDeath;
 	public bool pause;
+	public Camera cam;
+
 	void Start () {
 		speed = 1.5f;
 		PlayerPrefs.DeleteAll ();
 		animator = this.GetComponent<Animator> ();
 		defualtsize = this.gameObject.transform.localScale;
 		defualtcolor = gameObject.GetComponent<SpriteRenderer> ().color;
+		normal = gameObject.GetComponent<SpriteRenderer> ().sprite;
 		Bigging = 0;
 		smalling = 0;
 		done = 0;
 		pause = false;
 		wait =0;
 		multi = 1;
+		isDeath = 0;
 		color = defualtcolor;
+		if (isLocalPlayer)
+			return;
+		cam.enabled = false;
 	}
 	// Update is called once per frame
 	void Update () {
 		{
+			if (isDeath > 0) {
+					CmdToNormal ();
+					this.GetComponent<SpriteRenderer> ().sprite = dead;
+				if (isDeath++ == 60)
+					this.GetComponent<SpriteRenderer> ().sprite = normal;
+				isDeath %= 60;
+			}
 			if (animator.GetInteger ("Direction") == 3)
 				this.GetComponent<SpriteRenderer> ().flipX = true;
 			else
@@ -52,8 +70,9 @@ public class ChubbyBoyController : NetworkBehaviour {
 				done++;
 				done %= 60;
 			}
+
 			this.GetComponent<SpriteRenderer> ().color = color;
-			if (!isLocalPlayer)
+			if (!isLocalPlayer || isDeath >0)
 				return;
 			Move ();
 			SkillCheck ();
@@ -94,18 +113,33 @@ public class ChubbyBoyController : NetworkBehaviour {
 	}
 	[Command]
 	void CmdFire(){
-		GameObject fireball = Instantiate (Fireball, this.transform.position, this.transform.rotation);
-		if(animator.GetInteger("Direction")== 3)
-		fireball.GetComponent<Rigidbody> ().velocity = Vector3.left * 10.5f;
-		else fireball.GetComponent<Rigidbody> ().velocity = Vector3.right * 10.5f;
+		Vector3 firespeed = Vector3.zero;
+		Vector3 fireoff = Vector3.zero;
+		if (animator.GetInteger ("Direction") == 3) {
+			firespeed = Vector3.left * 10.5f;
+			fireoff = transform.localScale.x*Vector3.left * 0.5f;
+			
+		} else {
+			firespeed = Vector3.right * 10.5f;
+			fireoff = transform.localScale.x*Vector3.right * 0.5f;
+		}
+		GameObject fireball = Instantiate (Fireball, this.transform.position+fireoff, this.transform.rotation);
+		fireball.GetComponent<Rigidbody> ().velocity = firespeed;
 		fireball.GetComponent<FireballScript> ().Direction = animator.GetInteger("Direction");
-		NetworkServer.Spawn (fireball);
+		NetworkServer.SpawnWithClientAuthority(fireball, connectionToClient);
 		Destroy (fireball, 4.0f);
 	}
 	[Command]
 	void CmdBanana(){
+		Vector3 fireoff = Vector3.zero;
+		if (animator.GetInteger ("Direction") == 3) {
+			fireoff = transform.localScale.x*Vector3.right * 0.5f;
+
+		} else {
+			fireoff = transform.localScale.x*Vector3.left * 0.5f;
+		}
 		GameObject trap = Instantiate (Trap, this.transform.position, this.transform.rotation);
-		NetworkServer.Spawn (trap);
+		NetworkServer.SpawnWithClientAuthority(trap,gameObject);
 		Destroy (trap, 4.0f);
 	}
 	[Command]
