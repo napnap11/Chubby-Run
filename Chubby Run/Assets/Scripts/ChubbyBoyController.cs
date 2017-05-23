@@ -12,11 +12,18 @@ public class ChubbyBoyController : NetworkBehaviour {
 	public GameObject Trap;
 	private Vector3 defualtsize;
 	private Color defualtcolor;
+	[SyncVar]
 	private int Bigging;
+	[SyncVar]
 	private int smalling;
+	[SyncVar]
 	private int done;
+	[SyncVar]
 	private int wait;
+	[SyncVar]
 	private int multi;
+	[SyncVar]
+	private Color color;
 	public bool pause;
 	void Start () {
 		speed = 1.5f;
@@ -30,21 +37,27 @@ public class ChubbyBoyController : NetworkBehaviour {
 		pause = false;
 		wait =0;
 		multi = 1;
+		color = defualtcolor;
 	}
 	// Update is called once per frame
 	void Update () {
 		{
-			if (!isLocalPlayer)
-				return;
-			Move ();
-			if (name == "ChubbyBoy")
-				SkillCheck ();
+			if (animator.GetInteger ("Direction") == 3)
+				this.GetComponent<SpriteRenderer> ().flipX = true;
+			else
+				this.GetComponent<SpriteRenderer> ().flipX = false;
 			if (smalling != 0 || Bigging != 0 || wait != 0)
 				Changesize ();
 			if (done > 0) {
 				done++;
 				done %= 60;
 			}
+			this.GetComponent<SpriteRenderer> ().color = color;
+			if (!isLocalPlayer)
+				return;
+			Move ();
+			SkillCheck ();
+
 		}
 	}
 	void Changesize(){
@@ -63,7 +76,7 @@ public class ChubbyBoyController : NetworkBehaviour {
 		}
 		if(wait>0){
 			if (++wait == 240){
-				ToNormal();
+				CmdToNormal();
 
 				wait %= 240;
 			}
@@ -72,14 +85,31 @@ public class ChubbyBoyController : NetworkBehaviour {
 	void SkillCheck(){
 		int noPowerUp = PlayerPrefs.GetInt ("noPowerUp",0);
 		if (Input.GetKeyDown (KeyCode.Space) && noPowerUp > 0) { 
-			PowerUp (PlayerPrefs.GetString ("PowerUp0"));
+			CmdPowerUp (PlayerPrefs.GetString ("PowerUp0"));
 			PlayerPrefs.SetInt ("noPowerUp", --noPowerUp);
 			PlayerPrefs.SetString ("PowerUp0", PlayerPrefs.GetString ("PowerUp1", ""));
 			PlayerPrefs.SetString ("PowerUp1", PlayerPrefs.GetString ("PowerUp2", ""));
 			PlayerPrefs.Save();
 		}
 	}
-	void PowerUp(string powername){
+	[Command]
+	void CmdFire(){
+		GameObject fireball = Instantiate (Fireball, this.transform.position, this.transform.rotation);
+		if(animator.GetInteger("Direction")== 3)
+		fireball.GetComponent<Rigidbody> ().velocity = Vector3.left * 10.5f;
+		else fireball.GetComponent<Rigidbody> ().velocity = Vector3.right * 10.5f;
+		fireball.GetComponent<FireballScript> ().Direction = animator.GetInteger("Direction");
+		NetworkServer.Spawn (fireball);
+		Destroy (fireball, 4.0f);
+	}
+	[Command]
+	void CmdBanana(){
+		GameObject trap = Instantiate (Trap, this.transform.position, this.transform.rotation);
+		NetworkServer.Spawn (trap);
+		Destroy (trap, 4.0f);
+	}
+	[Command]
+	void CmdPowerUp(string powername){
 		
 		switch (powername) {
 		case("Bigger"):
@@ -87,26 +117,26 @@ public class ChubbyBoyController : NetworkBehaviour {
 			break;
 		case("Fire"):
 			done = 1;
-			GameObject fireball = Instantiate (Fireball, this.transform.position, this.transform.rotation);
-			fireball.GetComponent<FireballScript> ().timeleft = 4.0f;
-			fireball.GetComponent<FireballScript> ().Direction = animator.GetInteger ("Direction");
+			CmdFire ();
 			break;
 		case("Speed"):
 			multi = 4;
 			wait = 1;
 			gameObject.GetComponent<SpriteRenderer> ().color = Color.red;
-		break;
+			color = Color.red;
+			break;
 		case("Banana"):
-			GameObject trap = Instantiate (Trap, this.transform.position, this.transform.rotation);
-			trap.GetComponent<TrapController> ().timeleft = 4.0f;
+			CmdBanana ();
 		break;
 		}
 
 	}
-	void ToNormal(){
+	[Command]
+	void CmdToNormal(){
 		multi = 1;
 		smalling = 1;
 		gameObject.GetComponent<SpriteRenderer> ().color = defualtcolor;
+		color = defualtcolor;
 	}
 	void Move(){
 		Vector3 move = new Vector3 (Input.GetAxis ("Horizontal"), 0);

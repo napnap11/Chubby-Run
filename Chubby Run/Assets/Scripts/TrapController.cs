@@ -10,9 +10,6 @@ public class TrapController : MonoBehaviour {
 	}
 	// Update is called once per frame
 	void Update () {
-		if (timeleft < 0)
-			Destroy (this.gameObject);
-		timeleft -= Time.deltaTime;
 	}
 	void OnCollisionEnter(Collision c){
 		

@@ -52,6 +52,7 @@
      <Compile Include="Assets\Scripts\GUIscript.cs" />
      <Compile Include="Assets\Scripts\PowerUpController.cs" />
      <Compile Include="Assets\Scripts\TrapController.cs" />
+     <Compile Include="Assets\Scripts\myNetworkManager.cs" />
      <None Include="Assets\Firebase\m2repository\com\google\firebase\firebase-auth-unity\maven-metadata.xml" />
      <None Include="Assets\Firebase\Plugins\link.xml" />
      <None Include="Assets\Plugins\Android\Firebase\AndroidManifest.xml" />
@@ -81,25 +82,25 @@
  <HintPath>D:/Program Files/Unity/Editor/Data/UnityExtensions/Unity/UnityVR/RuntimeEditor/UnityEngine.VR.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.App">
- <HintPath>C:/Users/Asus/Desktop/Game Midterm/Chubby Run/Chubby Run/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
+ <HintPath>C:/Users/Asus/Desktop/Game Midterm/Chubby Run/Chubby-Run/Chubby Run/Assets/Firebase/Plugins/Firebase.App.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Auth">
- <HintPath>C:/Users/Asus/Desktop/Game Midterm/Chubby Run/Chubby Run/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
+ <HintPath>C:/Users/Asus/Desktop/Game Midterm/Chubby Run/Chubby-Run/Chubby Run/Assets/Firebase/Plugins/Firebase.Auth.dll</HintPath>
  </Reference>
  <Reference Include="Firebase.Database">
- <HintPath>C:/Users/Asus/Desktop/Game Midterm/Chubby Run/Chubby Run/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
+ <HintPath>C:/Users/Asus/Desktop/Game Midterm/Chubby Run/Chubby-Run/Chubby Run/Assets/Firebase/Plugins/Firebase.Database.dll</HintPath>
  </Reference>
  <Reference Include="Google.MiniJson">
- <HintPath>C:/Users/Asus/Desktop/Game Midterm/Chubby Run/Chubby Run/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
+ <HintPath>C:/Users/Asus/Desktop/Game Midterm/Chubby Run/Chubby-Run/Chubby Run/Assets/Firebase/Plugins/Google.MiniJson.dll</HintPath>
  </Reference>
  <Reference Include="Google.Sharpen">
- <HintPath>C:/Users/Asus/Desktop/Game Midterm/Chubby Run/Chubby Run/Assets/Firebase/Plugins/Google.Sharpen.dll</HintPath>
+ <HintPath>C:/Users/Asus/Desktop/Game Midterm/Chubby Run/Chubby-Run/Chubby Run/Assets/Firebase/Plugins/Google.Sharpen.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Compat">
- <HintPath>C:/Users/Asus/Desktop/Game Midterm/Chubby Run/Chubby Run/Assets/Firebase/Plugins/Unity.Compat.dll</HintPath>
+ <HintPath>C:/Users/Asus/Desktop/Game Midterm/Chubby Run/Chubby-Run/Chubby Run/Assets/Firebase/Plugins/Unity.Compat.dll</HintPath>
  </Reference>
  <Reference Include="Unity.Tasks">
- <HintPath>C:/Users/Asus/Desktop/Game Midterm/Chubby Run/Chubby Run/Assets/Firebase/Plugins/Unity.Tasks.dll</HintPath>
+ <HintPath>C:/Users/Asus/Desktop/Game Midterm/Chubby Run/Chubby-Run/Chubby Run/Assets/Firebase/Plugins/Unity.Tasks.dll</HintPath>
  </Reference>
  <Reference Include="UnityEditor.iOS.Extensions.Xcode">
  <HintPath>D:/Program Files/Unity/Editor/Data/PlaybackEngines/iOSSupport/UnityEditor.iOS.Extensions.Xcode.dll</HintPath>
