@@ -36,5 +36,8 @@ public class FireballScript : NetworkBehaviour {
 		animator.SetBool ("Hit", true);
 		gameObject.GetComponent<BoxCollider> ().enabled = false;
 		soundHit.Play ();
+		ChubbyBoyController hitter = c.gameObject.GetComponent<ChubbyBoyController> ();
+		if (hitter != null)
+			hitter.isDeath = 1;
 	}
 }
